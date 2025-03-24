@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔥 Recipo - Find Your Perfect Recipe
 
-## Getting Started
+Recipo is your ultimate recipe finder web app that helps you discover delicious dishes from around the world! Browse recipes by country, save your favorites, and create your own culinary journey.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- 🌍 **Country-based Recipe Search** - Find recipes specific to different countries and cultures
+- 🔍 **Advanced Filtering** - Filter recipes by country or difficulty
+- 👤 **User Accounts** - Login with email OTP or Google Auth
+- 📱 **Responsive Design** - Works perfectly on desktop, tablet, and mobile devices
+- ❤️ **Favorite Recipes** - Add the recipes you like to your favorites
+- 🌟 **Rate or Comment** - Add a rating and comments to recipes
+- 👑 **Admin Dashboard** - Manage recipes, countries, and users (admin access only)
+
+## 🛠️ Tech Stack
+
+- ⚛️ **Frontend**: Next.js 15, React 19, Tailwind CSS, Shadcn UI
+- 🔐 **Authentication**: Better-Auth
+- 💾 **Database**: PostgreSQL, Drizzle ORM
+- 🧪 **Form Validation**: React Hook Form, Zod
+
+## 🔧 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+- PostgreSQL database (supabase, neon...)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/OmarJ9/recipo.git
+   cd recipo
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Set up environment variables:
+   Create a `.env` file in the root directory with:
+
+   ```
+   DATABASE_URL=your_postgresql_database_url
+   BETTER_AUTH_SECRET=your_better-auth_secret
+   BETTER_AUTH_URL=http://localhost:3000
+   GOOGLE_CLIENT_ID=your_google_client_id
+   GOOGLE_CLIENT_SECRET=your_google_client_secret
+   ```
+
+4. Migrate the database:
+
+   ```bash
+   npx drizzle-kit migrate
+   # or
+   yarn drizzle-kit migrate
+   ```
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🖥️ Showcase
+
+Here are some screenshots showcasing the web application:
+
+<img src="./public/screenshots/Screenshot-1.png" style="margin-bottom: 80px;">
+<img src="./public/screenshots/screenshot-2.png" style="margin-bottom: 80px;">
+<img src="./public/screenshots/Screenshot-3.png" style="margin-bottom: 80px;">
+<img src="./public/screenshots/Screenshot-4.png" style="margin-bottom: 80px;">
+<img src="./public/screenshots/Screenshot-5.png" style="margin-bottom: 80px;">
+<img src="./public/screenshots/Screenshot-6.png" style="margin-bottom: 20px;">
+
+## 📚 Project Structure
+
+```
+recipo/
+├── src/                  # Source files
+│   ├── actions/          # Server actions
+│   ├── app/              # App router components
+│   │   ├── (auth)/       # Authentication routes
+│   │   ├── admin/        # Admin dashboard
+│   │   ├── recipes/      # Recipe-related pages
+│   │   └── api/          # API routes
+│   ├── components/       # UI components
+│   ├── database/         # Database configurations
+│   ├── hooks/            # Custom React hooks
+│   ├── lib/              # Utility functions
+│   └── types/            # TypeScript type definitions
+└── public/               # Static files
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Star ⭐ the repo if you like what you see 😉.
