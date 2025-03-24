@@ -78,11 +78,14 @@ Recipo is your ultimate recipe finder web app that helps you discover delicious 
 Here are some screenshots showcasing the web application:
 
 <img src="./public/screenshots/Screenshot-1.png" style="margin-bottom: 80px;">
-<img src="./public/screenshots/screenshot-2.png" style="margin-bottom: 80px;">
+<img src="./public/screenshots/Screenshot-2.png" style="margin-bottom: 80px;">
 <img src="./public/screenshots/Screenshot-3.png" style="margin-bottom: 80px;">
 <img src="./public/screenshots/Screenshot-4.png" style="margin-bottom: 80px;">
 <img src="./public/screenshots/Screenshot-5.png" style="margin-bottom: 80px;">
 <img src="./public/screenshots/Screenshot-6.png" style="margin-bottom: 20px;">
+<img src="./public/screenshots/Screenshot-7.png" style="margin-bottom: 20px;">
+<img src="./public/screenshots/Screenshot-8.png" style="margin-bottom: 20px;">
+<img src="./public/screenshots/Screenshot-9.png" style="margin-bottom: 20px;">
 
 ## 📚 Project Structure
 
