@@ -7,7 +7,6 @@ Recipo is your ultimate recipe finder web app that helps you discover delicious 
 - 🌍 **Country-based Recipe Search** - Find recipes specific to different countries and cultures
 - 🔍 **Advanced Filtering** - Filter recipes by country or difficulty
 - 👤 **User Accounts** - Login with email OTP or Google Auth
-- 📱 **Responsive Design** - Works perfectly on desktop, tablet, and mobile devices
 - ❤️ **Favorite Recipes** - Add the recipes you like to your favorites
 - 🌟 **Rate or Comment** - Add a rating and comments to recipes
 - 🔎 **SEO Optimization** - Optimize SEO for better search engine indexing
