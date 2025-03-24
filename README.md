@@ -10,7 +10,7 @@ Recipo is your ultimate recipe finder web app that helps you discover delicious 
 - 📱 **Responsive Design** - Works perfectly on desktop, tablet, and mobile devices
 - ❤️ **Favorite Recipes** - Add the recipes you like to your favorites
 - 🌟 **Rate or Comment** - Add a rating and comments to recipes
-- 🌟 **SEO Optimization** - Optimize SEO for better search engine indexing 🔎
+- 🔎 **SEO Optimization** - Optimize SEO for better search engine indexing
 - 👑 **Admin Dashboard** - Manage recipes, countries, and users (admin access only)
 
 ## 🛠️ Tech Stack
