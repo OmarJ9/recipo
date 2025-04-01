@@ -2,6 +2,8 @@
 
 Recipo is your ultimate recipe finder web app that helps you discover delicious dishes from around the world! Browse recipes by country, save your favorites, and create your own culinary journey.
 
+## Star ⭐ the repo if you like what you see 😉.
+
 ## 🚀 Features
 
 - 🌍 **Country-based Recipe Search** - Find recipes specific to different countries and cultures
@@ -105,5 +107,3 @@ recipo/
 │   └── types/            # TypeScript type definitions
 └── public/               # Static files
 ```
-
-# Star ⭐ the repo if you like what you see 😉.
