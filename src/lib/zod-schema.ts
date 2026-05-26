@@ -11,7 +11,7 @@ export const RecipeInsertSchema = createInsertSchema(schema.recipe, {
   image: z.string().optional(),
   time: z.string().min(1, { message: "Cooking time is required" }),
   difficulty: z.enum(["easy", "medium", "hard"], {
-    required_error: "Please select a difficulty level",
+    message: "Please select a difficulty level",
   }),
   countryId: z.string(),
   servings: z.number().min(1, { message: "Servings must be at least 1" }),
@@ -23,7 +23,7 @@ export const RecipeInsertSchema = createInsertSchema(schema.recipe, {
   instructions: z
     .array(z.string())
     .min(1, { message: "At least one instruction is required" }),
-  isFeatured: z.boolean().default(false),
+  isFeatured: z.boolean(),
 });
 
 export const CountryInsertSchema = createInsertSchema(schema.country, {

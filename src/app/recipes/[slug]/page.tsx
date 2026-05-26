@@ -5,7 +5,6 @@ import { RecipeInstructions } from "@/components/recipes/recipe-instructions";
 import { CommentSection } from "@/components/recipes/comment-section";
 import {
   getRecipeBySlug,
-  getAllRecipes,
   getReviewsByRecipeId,
 } from "@/database/queries";
 import BackButton from "@/components/recipes/back-button";
@@ -21,14 +20,6 @@ export async function generateMetadata({ params }: { params: Params }) {
   return {
     title: recipe?.title,
   };
-}
-
-export async function generateStaticParams() {
-  const recipes = await getAllRecipes({ limit: 100 });
-
-  return recipes.map((recipe) => ({
-    slug: recipe.slug,
-  }));
 }
 
 export default async function RecipePage({ params }: { params: Params }) {

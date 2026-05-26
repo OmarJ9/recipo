@@ -1,4 +1,4 @@
-import { YoutubeIcon } from "lucide-react";
+import { Video } from "lucide-react";
 
 interface RecipeInstructionsProps {
   instructions: string[];
@@ -37,7 +37,7 @@ export function RecipeInstructions({
       {videoUrl && (
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 mt-8">
           <div className="flex items-center mb-4">
-            <YoutubeIcon className="h-5 w-5 text-red-600 mr-2" />
+            <Video className="h-5 w-5 text-red-600 mr-2" />
             <h2 className="text-xl font-semibold">Video Tutorial</h2>
           </div>
           <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
